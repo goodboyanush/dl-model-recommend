@@ -1,0 +1,4 @@
+numpy==1.14.1
+torch==0.4.1
+torchvision==0.2.1
+joblib==0.12.2
