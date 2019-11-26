@@ -68,17 +68,3 @@ model recommend: accuracy predicted -  [0.26962945]
 Sorting for the best models ... 
 [{"_id": "cifar10_801", "accuracy": 27.2299940725517}, {"_id": "cifar10_1", "accuracy": 27.076087560274477}, {"_id": "cifar10_908", "accuracy": 27.060888232986326}, {"_id": "cifar10_933", "accuracy": 26.962945414430774}, {"_id": "cifar10_68", "accuracy": 26.946919074586763}]
 ```
-
-## Run Intermediate Steps
-
-### To obtain dataset similarity
-
-**Input**: The input query dataset could be a directory path or could be a `.zip` path. The structure is provided in the standard [PyTorch dataset format](https://pytorch.org/docs/stable/torchvision/datasets.html) as follows:
-
-
-
-```
-> cd code/
-
-> python dataset_similarity.py
-```
